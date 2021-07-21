@@ -37,3 +37,12 @@
   align-items: center;
   justify-content: flex-end
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
