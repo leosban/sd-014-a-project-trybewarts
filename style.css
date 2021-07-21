@@ -24,3 +24,12 @@ img {
   display: flex;
   align-content: flex-end;
 }
+
+#container__form {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
