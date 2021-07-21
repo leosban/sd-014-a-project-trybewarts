@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -6,6 +10,7 @@
 
 #trybewarts-header-title {
   justify-content: center;
+  color: white;
 }
 
 .trybewarts-header-logo {
@@ -17,5 +22,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
+.main-container {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
 }
