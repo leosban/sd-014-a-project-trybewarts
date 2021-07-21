@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   margin:  0;
   padding: 0;
@@ -12,13 +11,16 @@
   align-items: center;
 }
 
-body {
-  background-color: green;
-=======
-.header{
+main{
     display: flex;
-    background-color:rgb(50, 167, 145) ;
-    width: 100%;
-    height: 90px;
->>>>>>> 2b0bafc4191c48807dc0302cc0815120654e33c2
+}
+
+#evaluation-form{
+    display: flex;
+    width: 675px;
+    flex-direction: column;
+}
+
+#trybewarts-forms-logo{
+    height: 500px;
 }
