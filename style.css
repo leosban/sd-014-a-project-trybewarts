@@ -24,7 +24,28 @@
   width: 675px;
 }
 
+#family-tech-container {
+	display: flex;
+}
+
 #family-container {
   display: flex;
   flex-direction: column;
+  flex-basis: 350px;
+}
+
+.tech-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.tech-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.tech-row label {
+	flex-basis: 90px;
+	align-self: flex-start;
 }
