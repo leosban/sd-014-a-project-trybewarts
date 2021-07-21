@@ -34,3 +34,7 @@
   width: 95%;
   padding-top: 25px;
 }
+
+.emailHouse-container {
+  display: flex;
+}
