@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trybewarts</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <img src="images/trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
-    <form class="trybewarts-login" action="">
-
-      <input type="email" placeholder="Login" >
-      <input type="password" placeholder="Senha" >
-      <button > Entrar</button>
-
-    </form>
-
-  </header>
-
-</body>
+  <body>
+    <header class="header">
+      <img
+        src="images/trybewarts-header-logo.svg"
+        alt=""
+        class="trybewarts-header-logo"
+      />
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form class="trybewarts-login" action="">
+        <input type="text" placeholder="Login" id="login-nome" />
+        <input type="password" placeholder="Senha" id="login-senha" />
+        <button type="button" id="login-submit">Entrar</button>
+      </form>
+    </header>
+    <script src="script.js"></script>
+  </body>
 </html>
