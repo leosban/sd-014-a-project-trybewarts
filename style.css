@@ -1,6 +1,13 @@
+*
+{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
 .header
 {
   display:flex;
+  align-items:center;
   justify-content:space-between;
   background-color: rgb(50, 167, 145);
 
@@ -9,5 +16,19 @@
 .trybewarts-login
 {
   display:flex;
-  align-items: center;
+  width:270px;
+  justify-content:space-between;
+}
+
+.trybewarts-login input{
+  width:100px;
+  padding:0.2em;
+}
+
+.trybewarts-login button{
+  background-color:rgb(80, 54, 131);
+  color:white;
+  border:1px solid rgb(80, 54, 131);
+  border-radius:2px;
+  padding:0.2em;
 }
