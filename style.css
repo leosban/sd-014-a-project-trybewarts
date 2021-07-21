@@ -30,6 +30,18 @@
     display: flex;
 }
 
+/* Body */
+
+main {
+    display:flex;
+}
+
+#evaluation-form {
+    display: flex;
+    flex-direction: column;
+    width: 675px;
+}
+
 
 
 
