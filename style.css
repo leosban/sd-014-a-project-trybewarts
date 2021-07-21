@@ -4,6 +4,11 @@
   height: 60px;
 }
 
+.image-container {
+  align-self: center;
+  height: 70%;
+}
+
 .trybewarts-header-logo {
   height: 100%;
 }
