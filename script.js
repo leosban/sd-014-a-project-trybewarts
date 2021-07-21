@@ -1,6 +1,3 @@
-const botaoEnviar = document.querySelector('#enviar');
-botaoEnviar.addEventListener('click', validarLogin);
-
 function validarLogin() {
   const valorLogin = document.querySelector('#login').value;
   const valorSenha = document.querySelector('#senha').value;
@@ -11,3 +8,6 @@ function validarLogin() {
     alert('Olá, Tryber!');
   }
 }
+
+const botaoEnviar = document.querySelector('#enviar');
+botaoEnviar.addEventListener('click', validarLogin);

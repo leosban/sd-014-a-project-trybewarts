@@ -13,20 +13,20 @@
   justify-content: center;
 }
 
-#form-container, #evaluation-form {
+#form-container , #evaluation-form {
   display: flex;
 }
 
 #evaluation-form {
   width: 675px;
-  flex-direction: column
+  flex-direction: column;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
 
-#evaluation-form input, #evaluation-form select {
+#evaluation-form input , #evaluation-form select {
   width: 50%;
 }
 
@@ -35,5 +35,9 @@
 }
 
 #email-casa {
+  display: flex;
+}
+
+#first-content , #second-content {
   display: flex;
 }
