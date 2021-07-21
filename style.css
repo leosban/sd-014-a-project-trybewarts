@@ -68,8 +68,16 @@ main {
   text-align: center;
 }
 
-#label-rate {
+#section-label-rate {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.right {
+  width: 50px;
+}
+
+.radio-right {
+  width: 25px;
 }
