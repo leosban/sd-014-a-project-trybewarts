@@ -1,13 +1,12 @@
 .header {
   display: flex;
-  background-color: rgb(50, 167, 145);
+  background-color: rgb(50 , 167 , 145);
   justify-content: space-between;
   align-items: center;
 }
 
 .trybewarts-login {
   display: flex;
-
 }
 
 #trybewarts-header-title {
@@ -35,17 +34,17 @@
 }
 
 .tech-container {
-	display: flex;
-	flex-direction: column;
+	display: flex;  
+  flex-direction: column;
 }
 
 .tech-row {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .tech-row label {
 	flex-basis: 90px;
-	align-self: flex-start;
+  align-self: flex-start;
 }
