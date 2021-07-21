@@ -8,7 +8,7 @@
   display: flex;
   background-color: rgb(50, 167, 145);
   height: 70px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header #trybewarts-header-title {
