@@ -43,3 +43,54 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+#right-side {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: darkmagenta;
+}
+
+#trybewarts-forms-logo {
+  width: 500px;
+}
+
+#name-section {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+#other-info-section {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 5px;
+}
+
+#input-name {
+  margin-right: 2vh;
+  border-radius: 5px;
+  border: 2px black;
+  padding: 3px;
+}
+
+#input-lastname {
+  border-radius: 5px;
+  border: 2px black;
+  padding: 3px;
+}
+
+#input-email {
+  margin-right: 2vh;
+  border-radius: 5px;
+  border: 2px black;
+  padding: 3px;
+}
+
+#house {
+  border-radius: 5px;
+  border: 2px black;
+  padding: 3px;
+}
