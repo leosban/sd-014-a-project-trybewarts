@@ -11,6 +11,7 @@
 #trybewarts-login {
   display: flex;
 }
+
 .header .trybewarts-header-logo {
   justify-content: flex-start;
 }

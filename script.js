@@ -6,13 +6,12 @@ function botaoEnviar(evento) {
   evento.preventDefault();
   const valorLogin = login.value;
   const valorSenha = senha.value;
-  alert("Olá");
+  // alert("Olá");
   console.log(valorLogin);
   console.log(valorSenha);
   if (valorLogin === 'tryber@teste.com' && valorSenha === '123456') {
     alert('Olá, Tryber!');
-  }
-  else {
+  } else {
     alert('Login ou senha inválidos.');
   }
 }
