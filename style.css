@@ -18,3 +18,19 @@
 #mainLogo {
     height: 500px;
 }
+
+#evaluation-form {
+    display: flex;
+   
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nameContainer {
+    display: flex;
+    width: 49%;
+}
