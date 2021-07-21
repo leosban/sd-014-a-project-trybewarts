@@ -5,7 +5,7 @@ function verificaLogin() {
   if (login.value === 'tryber@teste.com' && senha.value === '123456') {
     alert('Olá, Tryber!');
   } else {
-    alert('Email ou senha inválidos.');
+    alert('Login ou senha inválidos.');
   }
 }
 document.getElementById('gobut').addEventListener('click', verificaLogin);
