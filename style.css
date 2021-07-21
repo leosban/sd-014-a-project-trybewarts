@@ -38,3 +38,6 @@
 .emailHouse-container {
   display: flex;
 }
+#label-container {
+  display: flex;
+}
