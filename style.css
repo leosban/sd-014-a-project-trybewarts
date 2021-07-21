@@ -9,6 +9,17 @@
   display: flex;
 }
 
-#trybewarts-header-title {
-  di
+.trybewarts-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+}
+
+.evaluation-form {
+  background-color: aqua;
+  display: flex;
+  width: 675px;
 }
