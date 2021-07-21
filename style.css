@@ -26,10 +26,21 @@ body {
 
 .main-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #evaluation-form {
-  display: flex;
   width: 675px;
+  display: flex;
   flex-direction: column;
+}
+
+#evaluation-form h2 {
+  text-align: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-left: 40px;
 }
