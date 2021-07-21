@@ -10,6 +10,11 @@
     height: 70px;
     justify-content: space-around;
 }
+.header #trybewarts-header-title{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
 
 .header #header-logo{
     display: flex;
@@ -59,6 +64,13 @@ main {
   display: flex;
   justify-content: space-between;
 }
+.row .subject{
+    display: flex;
+    flex-direction: column;
+}
+#label-content{
+    display: flex;
+    flex-wrap: wrap;
 
 .column {
   display: flex;
