@@ -1,3 +1,7 @@
+main {
+  display: flex;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -8,3 +12,9 @@
 .trybewarts-login {
   display: flex;
 } 
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
