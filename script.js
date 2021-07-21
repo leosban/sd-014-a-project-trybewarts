@@ -11,6 +11,15 @@ function addEventButtonLogin() {
   });
 }
 
+function addEventCheck() {
+  document.getElementById('agreement').addEventListener('click', () => {
+    if (document.getElementById('agreement').checked) {
+      document.getElementById('submit-btn').disabled = false;
+    } else document.getElementById('submit-btn').disabled = true;
+  });
+}
+
 window.onload = () => {
   addEventButtonLogin();
+  addEventCheck();
 };
