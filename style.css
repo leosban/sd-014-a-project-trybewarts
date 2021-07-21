@@ -1,4 +1,5 @@
 main {
+  width: 100%;
   display: flex;
 }
 
@@ -6,6 +7,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: rgb(50, 167, 145);
 }
 
@@ -13,8 +15,21 @@ main {
   display: flex;
 } 
 
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
