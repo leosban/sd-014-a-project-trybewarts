@@ -38,3 +38,8 @@ img {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#container-name {
+  display: flex;
+}
+
