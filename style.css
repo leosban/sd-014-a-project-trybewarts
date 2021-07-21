@@ -4,13 +4,33 @@
   width: 675px;
 }
 
-#input-email-and-house {
+#input-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+#label-content {
+  width: 100%;
+}
+
+#input-email-house {
   display: flex;
 }
 
 #input-email,
 #house {
   flex-grow: 1;
+}
+
+#input-family-content {
+  display: flex;
+}
+
+#input-family {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
 }
 
 #input-fullname {
@@ -36,4 +56,9 @@ main {
 #evaluation-form,
 #trybewarts-forms-logo {
   border: 1px solid red;
+}
+
+hr {
+  border: 1px solid red;
+  width: 100%;
 }
