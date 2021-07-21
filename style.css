@@ -5,5 +5,13 @@
 }
 
 .trybewarts-header-logo {
+}
 
+.main-container {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
