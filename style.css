@@ -13,3 +13,23 @@
 .trybewarts-header-logo {
   width: 50px;
 }
+
+.trybewarts-login {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;  
+}
+
+.input-form-login {
+  padding: 5px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-form-login {
+  padding: 5px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  border: none;
+}
