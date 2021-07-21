@@ -25,3 +25,7 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.email-casa {
+  display: flex;
+}
