@@ -9,10 +9,12 @@
     background-color: rgb(50, 167, 145);
     height: 70px;
 }
+
 .header #header-logo{
     display: flex;
     align-items: center;
 }
+
 main {
   display: flex;
 }
@@ -25,4 +27,10 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.row {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
 }
