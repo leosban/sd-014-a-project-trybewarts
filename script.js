@@ -47,3 +47,15 @@ function sendForm() {
 }
 
 agreementCheck.addEventListener('click', sendForm);
+
+// requisito 21 (bônus): Contador de caractérias
+const counter = document.querySelector('#counter');
+const textarea = document.querySelector('#textarea');
+const counterMax = 500;
+
+function counterText() {
+  const number = counterMax - textarea.value.length;
+  counter.innerText = number;
+}
+
+textarea.addEventListener('keyup', counterText);
