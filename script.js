@@ -12,3 +12,17 @@ function loginInteraction() {
 }
 
 buttonLogin.addEventListener('click', loginInteraction);
+
+// interação botao de enviar
+const checkbox = document.querySelector('#agreement');
+const submitButton = document.querySelector('#submit-btn');
+
+function clickSend(e) {
+  if (e.target.checked) { // Source: https://stackoverflow.com/questions/18110865/how-to-disable-enable-a-button-with-a-checkbox-if-checked/18110998
+    submitButton.disabled = false;
+  } else {
+    submitButton.disabled = true;
+  }
+}
+
+checkbox.addEventListener('change', clickSend);
