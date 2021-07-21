@@ -27,8 +27,20 @@ function habilitaBtn() {
   });
 }
 
+function decrementaCaracteres() {
+  const valorText = document.getElementById('textarea');
+  const counter = document.getElementById('counter');
+
+  valorText.addEventListener('keyup', () => {
+    const validador = valorText.maxLength - valorText.value.length;
+
+    counter.innerHTML = validador;
+  });
+}
+
 window.onload = () => {
   btnLogin();
   desabilitaBtn();
   habilitaBtn();
+  decrementaCaracteres();
 };
