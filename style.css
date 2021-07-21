@@ -36,4 +36,7 @@ main {
   height: 500px;
 }
 
-/* REe */
+#name-lastname {
+  display: flex;
+  flex-direction: row;
+}
