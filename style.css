@@ -10,10 +10,12 @@
     height: 70px;
     justify-content: space-around;
 }
+
 .header #header-logo{
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
 .trybewarts-login{
     display: flex;
    
@@ -38,6 +40,9 @@
     border: none;
     border-radius: 5px;
 }
+=======
+
+>>>>>>> 6c1f0bf7766f7631f767d31fd1e1fa5014ad891f
 main {
   display: flex;
 }
@@ -50,4 +55,10 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.row {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
 }
