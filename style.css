@@ -22,4 +22,5 @@
   background-color: aqua;
   display: flex;
   width: 675px;
+  flex-direction: column;
 }
