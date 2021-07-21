@@ -4,7 +4,7 @@ function buttonLogin() {
         const password = document.getElementById('password').value;
         if (username === 'tryber@teste.com' && password === '123456') {
             alert('Olá, Tryber!');
-        } else{
+        } else {
             alert('Login ou senha inválidos.');
         }
     });
