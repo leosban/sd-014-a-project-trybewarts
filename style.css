@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -17,5 +18,16 @@
 
 .trybewarts-login {
   display: flex;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+#evaluation-form{
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 }
 
