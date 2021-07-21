@@ -8,4 +8,4 @@ function loginSenha() {
   } else {
     alert('Login ou senha inválidos.');
   }
-}; btnLogin.addEventListener('click', loginSenha); 
+} btnLogin.addEventListener('click', loginSenha);
