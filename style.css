@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -22,4 +26,13 @@
   display: flex;
   flex-direction: column;
   width: 675px;
+}
+
+.name-container {
+  display: flex;
+  margin: 4px 0;
+}
+
+.house-container {
+  display: flex;
 }
