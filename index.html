@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS's -->
   <link rel="stylesheet" href="materialize/css/materialize.css">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
@@ -119,12 +120,79 @@
             </div>
           </div>
         </div>
+        <!-- Avaliação e Comentário (Requisito 14 e 15) -->
+        <!-- Avaliação (Requisito 14) -->
+        <div class="col s10 avaliator">
+          <label for="rate" id="label-rate" class="col s6"><h6>Como você avalia a Trybewarts?</h6></label>
+          <div class="col s6">
+            <label>
+              <input name="rate" class="col s2" value="1" type="radio" />
+              <span>1</span>
+            </label>
+            <label>
+              <input name="rate" class="col s2" value="2" type="radio" />
+              <span>2</span>
+            </label>
+            <label>
+              <input name="rate" class="col s2" value="3" type="radio" />
+              <span>3</span>
+            </label>
+            <label>
+              <input name="rate" class="col s2" value="4" type="radio" />
+              <span>4</span>
+            </label>
+            <label>
+              <input name="rate" class="col s2" value="5" type="radio" />
+              <span>5</span>
+            </label>
+            <label>
+              <input name="rate" class="col s2" value="6" type="radio" />
+              <span>6</span>
+            </label>
+            <label>
+              <input name="rate" class="col s2" value="7" type="radio" />
+              <span>7</span>
+            </label>
+            <label>
+              <input name="rate" class="col s2" value="8" type="radio" />
+              <span>8</span>
+            </label>
+            <label>
+              <input name="rate" class="col s2" value="9" type="radio" />
+              <span>9</span>
+            </label>
+            <label>
+              <input name="rate" class="col s2" value="10" type="radio" />
+              <span>10</span>
+            </label>
+          </div>
+        </div>
+        <!-- Comentário (Requisito 15) -->
+        <div class="input-field col s12">
+          <textarea id="textarea" class="materialize-textarea" maxlength="500"></textarea>
+          <label for="textarea" class="textarea">Deixe seu comentário:</label>
+        </div>
+        <div class="col s12"> </div>
+        <!-- Termos e Submit (Requisito 16, 17 e 18) -->
+        <div class="col s12">
+          <div class="col s8">
+            <p><label id="label-infos">
+              <input type="checkbox" class="agreement" id="agreement"/>
+              <span>Você concorda com o uso das informações acima?</span>
+            </label></p>
+          </div>
+          <div class="col s4">
+            <button class="btn waves-effect waves-light submiter" type="submit" name="action" id="submit-btn" disabled>Enviar</button>
+          </div>
+        </div>
       </div>
     </form>
     <!-- Imagem TrybeWarts (Requisito 7) -->
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" cla>
   </main>
+  
   <!-- Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="script.js"></script>
 </body>
 
