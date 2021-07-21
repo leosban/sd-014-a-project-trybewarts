@@ -8,40 +8,49 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header> <h1>projeto</h1> </header>
+    <header><h1>projeto</h1></header>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     <main>
       <form id="evaluation-form">
-
+        <input
+          type="text"
+          name="name"
+          id="input-name"
+          placeholder="Nome"
+          required
+        />
+        <input
+          type="text"
+          name="lastname"
+          id="input-lastname"
+          placeholder="Sobrenome"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          id="input-email"
+          placeholder="Email"
+          required
+        />
+        <label for="house">Casa: </label>
+        <select name="house" id="house">
+          <option disabled selected value>Selecione sua casa</option>
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
       </form>
-      <img src="images/trybewarts-colored.svg" alt="Trybewarts Colored" id="trybewarts-forms-logo">
+
+      <img
+        src="images/trybewarts-colored.svg"
+        alt="Trybewarts Colored"
+        id="trybewarts-forms-logo"
+      />
     </main>
 
-    <footer>
-
-
-
-
-    </footer>
+    <footer></footer>
     <script src="script.js"></script>
   </body>
 </html>
