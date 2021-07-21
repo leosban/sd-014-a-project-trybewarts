@@ -17,6 +17,11 @@
   justify-content: center;
 }
 
+#trybewarts-forms-logo {
+  height: 500px;
+  align-items: flex-start;
+}
+
 main {
   display: flex;
 }
