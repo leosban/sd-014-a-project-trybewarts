@@ -70,7 +70,11 @@ main {
 #label-content{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
+
+=======
 }
+>>>>>>> 252e42f754158517c1d9104ef182b336c87c4bf4
 .column {
   display: flex;
   flex-direction: column;
