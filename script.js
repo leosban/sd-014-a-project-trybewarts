@@ -14,7 +14,5 @@ buttonLogin.addEventListener('click', (event) => {
 });
 
 agreement.onchange = function swap() { 
-        submitBtn.disabled = !this.checked;
-  };
-
-
+  submitBtn.disabled = !this.checked;
+};

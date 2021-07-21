@@ -68,10 +68,9 @@ main {
   justify-content: space-between;
 }
 
-#label-content{
-    display: flex;
-    flex-wrap: wrap;
-
+#label-content {
+  display: flex;
+  flex-wrap: wrap;
   display: flex;
 }
 
