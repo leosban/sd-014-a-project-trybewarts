@@ -67,3 +67,8 @@ main {
   display: flex;
   text-align: center;
 }
+
+#label-rate {
+  display: flex;
+  flex-direction: row;
+}
