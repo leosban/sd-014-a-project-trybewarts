@@ -16,6 +16,7 @@ form {
 
 .div-form-and-img {
   display: flex;
+  justify-content: space-between;
 }
 
 main {
