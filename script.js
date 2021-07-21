@@ -21,3 +21,11 @@ function enableSend() {
 }
 document.getElementById('agreement').addEventListener('change', enableSend);
 
+function countChar() {
+  let idcount = document.getElementById('counter');
+  let charCount = document.getElementById('textarea').value.length;
+  let newCount = 500 - charCount;
+  idcount.innerText = newCount;
+}
+document.getElementById('textarea').addEventListener('change', countChar);
+document.getElementById('textarea').addEventListener('keyup', countChar);
