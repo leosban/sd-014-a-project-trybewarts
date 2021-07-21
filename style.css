@@ -19,4 +19,13 @@
   height: 100px;
 }
 
- 
+.mainForm {
+  display: flex;
+    
+}
+
+#evaluation-form{
+  display: flex;
+  width: 675px;
+
+}
