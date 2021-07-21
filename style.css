@@ -2,3 +2,17 @@ header {
   background-color: rgb(50, 167, 145)
   display: flex
 }
+
+main {
+  width:675px ;
+  display: flex;
+}
+
+.trybewarts-header-logo {
+
+}
+
+.trybewarts-login {
+  display: flex
+}
+
