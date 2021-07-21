@@ -59,3 +59,8 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
