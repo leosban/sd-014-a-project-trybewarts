@@ -45,3 +45,6 @@
 #trybewarts-forms-logo{
   height: 500px;
 }
+.nameLastName{
+  display: flex;
+}
