@@ -17,7 +17,7 @@
   color: white;
 }
 
-.header #header-logo {
+.header .trybewarts-header-logo {
   display: flex;
   align-items: center;
 }
@@ -68,7 +68,10 @@ main {
   justify-content: space-between;
 }
 
-.row .subject {
+#label-content{
+    display: flex;
+    flex-wrap: wrap;
+
   display: flex;
 }
 
