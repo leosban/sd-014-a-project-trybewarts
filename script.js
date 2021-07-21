@@ -21,3 +21,8 @@ function loginCheck() {
 
 const loginButton = document.querySelector('#login');
 loginButton.addEventListener('click', loginCheck);
+
+// Função para habilitar botão de envio ... REQUISITO 18
+document.getElementById('agreement').addEventListener('click', (e) => {
+  document.getElementById('submit-btn').disabled = !e.target.checked;
+}); // Referência da estrutura da função = https://stackoverflow.com/questions/33973512/enable-submit-button-when-select-checkbox
