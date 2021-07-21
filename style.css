@@ -3,14 +3,33 @@
     padding: 0;
 }
 
+/* Header */
+
 .header {
     background-color: rgb(50, 167, 145);
-    display: flex
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
 
 .trybewarts-header-logo{
     display: flex;
-    align-self: stretch
+    width: 80px;
+    margin: 10px;
+    justify-content: start;
+}
+
+.trybewarts-header-title {
+    display: flex;
+    justify-content: center;
 
 }
+
+.trybewarts-login {
+    margin: 15px;
+    display: flex;
+}
+
+
+
+
