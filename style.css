@@ -47,4 +47,9 @@
 }
 .nameLastName{
   display: flex;
+  flex-direction: row;
+}
+.emailHouses{
+  display: flex;
+  flex-direction: row;
 }
