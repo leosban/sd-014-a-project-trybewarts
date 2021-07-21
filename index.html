@@ -42,37 +42,40 @@
         </select>
       </div>
       <div>
-        <label for="family-radio" id="label-family"> Qual sua família?</label>
-          <div>
-            <input type="radio" name="family" value="Frontend" id="family-radio">Frontend
-            <input type="radio" name="family" value="Backend" id="family-radio">Backend
-            <input type="radio" name="family" value="FullStack" id="family-radio">FullStack
-          </div>
+        <label id="label-family"> Qual sua família?</label>
+        <div><input type="radio" name="family" value="Frontend" id="family-frontend">Frontend</div>
+        <div><input type="radio" name="family" value="Backend" id="family-backend">Backend</div>
+        <div><input type="radio" name="family" value="FullStack" id="family-fullstack">FullStack</div>
       </div>
       <div>
-        <label for="content-checkbox" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <div>
-          <input type="checkbox" name="" value="HoFs" id="content-checkbox" class="subject">HoFs
-          <input type="checkbox" name="" value="Jest" id="content-checkbox" class="subject">Jest
-          <input type="checkbox" name="" value="Promises" id="content-checkbox" class="subject">Promises
-          <input type="checkbox" name="" value="React" id="content-checkbox" class="subject">React
-          <input type="checkbox" name="" value="SQL" id="content-checkbox" class="subject">SQL
-          <input type="checkbox" name="" value="Python" id="content-checkbox" class="subject">Python
+          <input type="checkbox" name="" value="HoFs" id="content-hofs" class="subject">HoFs
+          <input type="checkbox" name="" value="Jest" id="content-jest" class="subject">Jest
+          <input type="checkbox" name="" value="Promises" id="content-promises" class="subject">Promises
+          <input type="checkbox" name="" value="React" id="content-react" class="subject">React
+          <input type="checkbox" name="" value="SQL" id="content-sql" class="subject">SQL
+          <input type="checkbox" name="" value="Python" id="content-python" class="subject">Python
         </div>
       </div>
       <div>
-        <label for="content-rate" id="label-rate">Como você avalia a Trybewarts?</label>
-        <input type="radio" name="rate" value="1" id="content-rate">1
-        <input type="radio" name="rate" value="2" id="content-rate">2
-        <input type="radio" name="rate" value="3" id="content-rate">3
-        <input type="radio" name="rate" value="4" id="content-rate">4
-        <input type="radio" name="rate" value="5" id="content-rate">5
-        <input type="radio" name="rate" value="6" id="content-rate">6
-        <input type="radio" name="rate" value="7" id="content-rate">7
-        <input type="radio" name="rate" value="8" id="content-rate">8
-        <input type="radio" name="rate" value="9" id="content-rate">9
-        <input type="radio" name="rate" value="10" id="content-rate">10
+        <label id="label-rate">Como você avalia a Trybewarts?</label>
+        <input type="radio" name="rate" value="1" id="rate1">1
+        <input type="radio" name="rate" value="2" id="rate2">2
+        <input type="radio" name="rate" value="3" id="rate3">3
+        <input type="radio" name="rate" value="4" id="rate4">4
+        <input type="radio" name="rate" value="5" id="rate5">5
+        <input type="radio" name="rate" value="6" id="rate6">6
+        <input type="radio" name="rate" value="7" id="rate7">7
+        <input type="radio" name="rate" value="8" id="rate8">8
+        <input type="radio" name="rate" value="9" id="rate9">9
+        <input type="radio" name="rate" value="10" id="rate10">10
       </div>
+      <div>
+        <label for="textarea" class="textarea">Deixe seu comentário:</label>
+        <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+      </div>
+
       <div>
         <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
         <input type="checkbox" name="infor" id="agreement" required>
