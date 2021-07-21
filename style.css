@@ -9,11 +9,19 @@ main {
 }
 
 .trybewarts-header-logo {
-
+height: 60px;
+margin-left: 15px;
+margin-top: 5px;
+margin-bottom: 5px;
 }
 
 .trybewarts-login {
   display: flex;
+  height: 30px;
+}
+.trybewarts-login input {
+  float: right;
+  align-items: flex-end;
 }
 
 #evaluation-form {
