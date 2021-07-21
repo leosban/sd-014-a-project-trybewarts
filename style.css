@@ -24,3 +24,7 @@
     width: 675px;
     flex-direction: column;
 }
+
+.logo {
+    height: 500px;
+}
