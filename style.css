@@ -10,12 +10,16 @@
     height: 70px;
     justify-content: space-around;
 }
+.header #trybewarts-header-title{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
 
 .header #header-logo{
     display: flex;
     align-items: center;
 }
-<<<<<<< HEAD
 .trybewarts-login{
     display: flex;
    
@@ -40,9 +44,7 @@
     border: none;
     border-radius: 5px;
 }
-=======
 
->>>>>>> 6c1f0bf7766f7631f767d31fd1e1fa5014ad891f
 main {
   display: flex;
 }
