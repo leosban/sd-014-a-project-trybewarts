@@ -2,3 +2,20 @@
   display: flex;
   background-color: rgb(50, 167, 145);
 }
+
+.header .trybewarts-header-logo {
+  justify-content: flex-start;
+}
+
+.header .trybewarts-header-title {
+  justify-content: center;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
