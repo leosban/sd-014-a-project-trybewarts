@@ -9,10 +9,10 @@
 }
 
 .trybewarts-login {
-    align-items: flex-end;
-    display: flex;
+  align-items: flex-end;
+  display: flex;
 }
 
-#trybewarts-header-title{
-    justify-content: center;
+#trybewarts-header-title {
+  justify-content: center;
 }
