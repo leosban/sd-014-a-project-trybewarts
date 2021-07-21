@@ -5,6 +5,16 @@
 }
 
 .trybewarts-login {
-    display: flex;
-    margin-right: 50px;
+  display: flex;
+  margin-right: 50px;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form{
+  display: flex;
+  width: 675px;
+  flex-direction: column;
 }
