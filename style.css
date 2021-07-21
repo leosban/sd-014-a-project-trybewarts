@@ -7,6 +7,7 @@
     background-color: rgb(50, 167, 145);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .trybewarts-login {
@@ -14,6 +15,12 @@
     align-items: center;
 }
 
-#trybewarts-header-title {
-    align-self: center;
+.main-container{
+    display: flex;
+}
+
+.evaluation-form{
+    display: flex;
+    width: 675px;
+    flex-direction: column;
 }
