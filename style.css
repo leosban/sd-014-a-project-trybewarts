@@ -1,0 +1,34 @@
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column; 
+  }
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column; 
+}
+
+#trybewarts-forms-logo {
+    height: 500px;
+  }
+  
+#evaluation-form {
+  width: 675px;
+
+}
+
+#trybewarts-header-title {
+  align-self: center;
+}
+
+.alinhados {
+  display: flex;
+}
+footer{
+    background-color: sandybrown;
+    text-align: center;
+}
