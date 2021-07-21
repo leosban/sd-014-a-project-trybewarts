@@ -4,6 +4,15 @@
   width: 675px;
 }
 
+#input-email-and-house {
+  display: flex;
+}
+
+#input-email,
+#house {
+  flex-grow: 1;
+}
+
 #input-fullname {
   display: flex;
   justify-content: space-around;
