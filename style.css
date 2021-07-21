@@ -1,12 +1,10 @@
-*
-{
+* {
   box-sizing:border-box;
   margin:0;
   padding:0;
 }
 
-.header
-{
+.header {
   padding-inline: 10px;
   display:flex;
   align-items:center;
@@ -14,19 +12,18 @@
   background-color: rgb(50, 167, 145);
 }
 
-.trybewarts-login
-{
+.trybewarts-login {
   display:flex;
   width:270px;
   justify-content:space-between;
 }
 
-.trybewarts-login input{
+.trybewarts-login input {
   width:100px;
   padding:0.2em;
 }
 
-.trybewarts-login button{
+.trybewarts-login button  {
   background-color:rgb(80, 54, 131);
   color:white;
   border:1px solid rgb(80, 54, 131);
@@ -35,16 +32,19 @@
   align-items: center;
 }
 
-.formulario{
+.formulario {
   display: flex;
 }
-.formulario form{
+
+.formulario form  {
   width: 675px;
   flex-direction: column;
 }
-#trybewarts-forms-logo{
+
+#trybewarts-forms-logo  {
   height: 500px;
 }
-.nameLastName{
+
+.nameLastName {
   display: flex;
 }
