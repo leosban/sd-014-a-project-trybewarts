@@ -28,9 +28,24 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
+  margin: 12px;
   flex-direction: column;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.lado-a-lado{
+  display: flex;
+}
+
+.lado-a-lado input{
+  margin: 12px;
+  width: 200px;
+}
+
+.lado-a-lado select{
+  margin: 12px;
+  width: 200px;
 }
