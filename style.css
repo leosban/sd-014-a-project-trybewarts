@@ -1,14 +1,19 @@
-main {
-  display: flex;
-}
-
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
 }
 
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
 /* Temporary styles, to be removed later. */
-#evaluation-form {
+#evaluation-form, #trybewarts-forms-logo {
   border: 1px solid red;
 }
