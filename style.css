@@ -1,8 +1,16 @@
+* {
+  margin: 0;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
 }
 
+.trybewarts-login {
+  display: flex;
+}
 .header .trybewarts-header-logo {
   justify-content: flex-start;
 }
