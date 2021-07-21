@@ -9,6 +9,6 @@ btnLogar.addEventListener('click', (event) => {
   if (login.value === loginPattern && senha.value === senhaPattern) {
     window.alert("Olá, Tryber!");
   } else {
-    window.alert('Login ou senha inválidos.')
+    window.alert('Login ou senha inválidos.');
   }
 })
