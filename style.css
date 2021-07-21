@@ -5,8 +5,25 @@
 }
 .header {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   background-color: rgb(50, 167, 145);
+  align-items: center;
 }
 .trybewarts-header-logo {
   justify-content: left;
+  height: 50px;
+}
+.trybewarts-login {
+  justify-content: space-evenly;
+  height: 20px;
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+}
+#login {
+  width: 100px;
+}
+#senha{
+  width: 100px;
 }
