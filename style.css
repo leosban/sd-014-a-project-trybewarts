@@ -1,0 +1,14 @@
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+/* Temporary styles, to be removed later. */
+#evaluation-form {
+  border: 1px solid red;
+}
