@@ -34,6 +34,7 @@
 #container-familia {
   display: flex;
 }
+
 .collum {
   display: flex;
   flex-direction: column;
