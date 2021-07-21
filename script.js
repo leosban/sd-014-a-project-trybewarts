@@ -10,3 +10,5 @@ function validarEmailSenha() {
     alert("Login ou senha inválidos.");
   }
 }
+const button = document.getElementById("autenticacao");
+button.addEventListener("click", validarEmailSenha);
