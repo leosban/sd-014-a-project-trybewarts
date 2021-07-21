@@ -1,5 +1,4 @@
-function validarLoginSenha() {
-  function validar() {
+  function validarEmailSenha() {
     const inputEmail = document.getElementById('js-email');
     const inputSenha = document.getElementById('js-senha');
     if (inputEmail.value === 'tryber@teste.com' && inputSenha.value === '123456') {
@@ -10,7 +9,4 @@ function validarLoginSenha() {
   }
 
   const button = document.getElementById('autenticacao')
-  button.addEventListener('click', validar)
-}
-
-validarLoginSenha();
+  button.addEventListener('click', validarEmailSenha)
