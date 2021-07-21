@@ -8,13 +8,41 @@
     display: flex;
     background-color: rgb(50, 167, 145);
     height: 70px;
+    justify-content: space-around;
 }
 
 .header #header-logo{
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
+.trybewarts-login{
+    display: flex;
+   
+}
+.trybewarts-login div{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.trybewarts-login div input{
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.trybewarts-login div button{
+    width: 120px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+=======
+
+>>>>>>> 6c1f0bf7766f7631f767d31fd1e1fa5014ad891f
 main {
   display: flex;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,29 @@
     <title>Trybewarts</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
         <img src="images/trybewarts-header-logo.svg" alt="" id="header-logo">
-        
+
+        <form action="" class="trybewarts-login">
+            <div>
+                <div>
+                    <input type="text" placeholder="Login" id="email">
+                </div>
+                <div>
+                    <input type="text" placeholder="Senha" id="senha">
+                </div>
+                <button id="button-login">Logar</button>
+            </div>
+        </form>
     </header>
-    
+
     <main>
+        <form id="evaluation-form">
+
+        </form>
+        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" />
       <form id="evaluation-form">
         <div class="row">
           <input type="text" id="input-name" placeholder="Nome">
@@ -32,5 +49,7 @@
       </form>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"/>
     </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
