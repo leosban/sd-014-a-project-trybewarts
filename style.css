@@ -4,7 +4,6 @@
 }
 
 /* Header */
-
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -31,9 +30,8 @@
 }
 
 /* Body */
-
 main {
-  display: flex;
+	display: flex;
 }
 
 #evaluation-form {
@@ -55,15 +53,13 @@ main {
   justify-content: space-between;
 } */
 
-#input-name,
-#input-lastname,
-#input-email {
-  margin: 5px 5px;
+#input-name, #input-lastname, #input-email {
+  margin: 5px;
 }
 
-#label-family {
-	
-}
+/* #label-family {
+
+} */
 
 .families {
   display: flex;
