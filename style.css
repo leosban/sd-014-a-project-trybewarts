@@ -12,7 +12,6 @@
 
 .mainContainer {
   display: flex;
-  
 }
 
 #evaluation-form {
@@ -22,7 +21,7 @@
   align-items: flex-end;
 }
 
-#trybewarts-forms-logo{
+#trybewarts-forms-logo {
   height: 500px;
   display: flex;
 }
