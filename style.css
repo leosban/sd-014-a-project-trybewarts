@@ -22,3 +22,7 @@
   width: 675px;
   flex-direction: column;
 }
+
+.nome-sobrenome {
+  flex-direction: row;
+}
