@@ -1,7 +1,3 @@
-* {
-	margin: 0;
-}
-
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -28,11 +24,7 @@
   width: 675px;
 }
 
-.name-container {
+#family-container {
   display: flex;
-  margin: 4px 0;
-}
-
-.house-container {
-  display: flex;
+  flex-direction: column;
 }
