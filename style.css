@@ -4,15 +4,18 @@
 }
 
 .trybewarts-header-logo {
+  display: flex;
   align-self: start;
   
 }
 
 .trybewarts-login {
+  display: flex;
   /*espaçamento maximo */
 }
 #trybewarts-header-title {
-  /*fica no meio  */
+  display: flex;
+  justify-content: space-between;
 }
 .main-container {
   display: flex;
