@@ -71,20 +71,12 @@ main {
 .row .subject {
     display: flex;
 }
-<<<<<<< HEAD
-#label-content{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-=======
 
 #label-content {
   display: flex;
   flex-wrap: wrap;
 }
 
->>>>>>> 590998a73ae4185b834dcb7c9e96bc859dbc4c88
 .column {
   display: flex;
   flex-direction: column;
