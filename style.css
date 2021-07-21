@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.trybewarts-header-logo{
+.trybewarts-header-logo {
     display: flex;
     width: 80px;
     margin: 10px;
@@ -42,6 +42,19 @@ main {
     width: 675px;
 }
 
+#trybewarts-forms-logo {
+    height: 500px;
+    display: flex;
+} 
 
+#house {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* width: 55%; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
 
-
+#input-name, #input-lastname, #input-email {
+    margin: 5px 5px;
+}
