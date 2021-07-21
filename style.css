@@ -6,7 +6,7 @@
 .header {
   width: 100%;
   display: flex;
-   background-color: rgb(50, 167, 145);
+  background-color: rgb(50, 167, 145);
   height: 70px;
   justify-content: space-around;
 }
@@ -14,7 +14,7 @@
 .header #trybewarts-header-title {
   display: flex;
   align-items: center;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .header #header-logo {
@@ -43,7 +43,7 @@
 .trybewarts-login div button {
   width: 120px;
   padding: 5px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border: none;
   border-radius: 5px;
 }
@@ -69,7 +69,7 @@ main {
 }
 
 .row .subject {
-    display: flex;
+  display: flex;
 }
 
 #label-content {
