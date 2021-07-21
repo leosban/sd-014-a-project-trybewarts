@@ -3,3 +3,7 @@
     display: flex;
 }
 /* requisito 1 - pronto */
+.trybewarts-login{
+    display: flex;
+    align-items: flex-end;
+}
