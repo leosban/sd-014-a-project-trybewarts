@@ -5,7 +5,6 @@
 }
 
 .trybewarts-header-logo {
-    
 }
 
 .main-container {
@@ -37,4 +36,10 @@
 .div-container {
   flex-wrap: wrap;
   width: 365px;
+}
+
+#submit-btn {
+  padding: 2px;
+  width: 50px;
+  height: 27px;
 }
