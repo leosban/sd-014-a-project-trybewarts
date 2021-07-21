@@ -5,14 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
+    <!-- Cabeçalho com imagem, inputs de login e senha, e botão de Logar ...REQUISITOS 1, 2 E 4-->
   <header class="header">
     <img src="images/trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <!-- Container (for) para login ...REQUISITO 3 -->   
     <form action="" method="GET" class="trybewarts-login">
       <input type="email" placeholder="Login" pattern="tryber@teste.com">
       <input type="text" placeholder="Senha" pattern="123456">
@@ -20,25 +22,30 @@
   </form>
   </header>
   <main>
+    <!-- Container geral do formulário ...REQUISITO 5  -->
     <form action="" id="evaluation-form">
       <h2>Forms</h2>
+      <!-- Container (div) para: Nome, sobrenome e e-mail ...REQUISITO 8 -->
       <div id="identification">
         <input type="text" id="input-name" placeholder="Nome">
         <input type="text" id="input-lastname" placeholder="Sobrenome">
         <input type="email" id="input-email" placeholder="Email">
       </div>
+      <!-- Container (select) para a escolha da casa ...REQUISITO 9 -->
       <select name="casa" id="house">
         <option value="Gitnória" id="gitnoria-house">Gitnória</option>
         <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
         <option value="Corvinode" id="corvinode-house">Corvinode</option>
         <option value="Pytherina" id="pytherina-house">Pytherina</option>
       </select>
+      <!-- Container (div) para escolha da familia ...REQUISITO 12 -->
       <div id="family">
         <label for="" id="label-family">Qual sua família?</label>
         <input type="radio" value="Frontend" name="family">Frontend
         <input type="radio" value="Backend" name="family">Backend
         <input type="radio" value="FullStack" name="family">FullStack
       </div>
+      <!-- Container (div) para escolha do conteudo que mais está com vontade de aprender ...REQUISITO 13 -->
       <div id="content">
         <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <input type="checkbox" class="subject" value="HoFs">HoFs
@@ -48,6 +55,7 @@
         <input type="checkbox" class="subject" value="SQL">SQL
         <input type="checkbox" class="subject" value="Python">Python
       </div>
+      <!-- Container (div) para dar nota ...REQUISITO 14 -->
       <div id="label-rate">
         <label for="" id="label-family">Como você avalia a Trybewarts?</label>
         <input type="radio" value="1" name="rate">1
@@ -61,11 +69,16 @@
         <input type="radio" value="9" name="rate">9
         <input type="radio" value="10" name="rate">10
       </div>
+      <!-- TextArea de comentário ...REQUISITO 15 -->
       <label class="textarea" for="textarea">Deixe seu comentário:</label><textarea name="" id="textarea" class="textarea" cols="30" rows="10" maxlength="500"></textarea>
+      <!-- Checkbox de agreement ...REQUISITO 16 -->      
       <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?/label><input type="checkbox" id="agreement" value="">
+      <!-- Botão para enviar formulário ...REQUISITO 17 -->      
       <button id="submit-btn" type="submit">Enviar</button>
     </form>
+    <!-- Logo da Trybewarts ...REQUISITO 7 -->
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+    <!-- Rodapé ...REQUISITO 19 -->   
     <footer>Direitos reservados à Trybewarts©</footer>
   </main>
   <script src="script.js"></script>
