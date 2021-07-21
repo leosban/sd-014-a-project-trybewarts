@@ -9,11 +9,20 @@
   justify-content: space-between;
   align-items: center;
 }
+<<<<<<< HEAD
 .trybewarts-login {
 display: flex;
 }
+=======
+
+.trybewarts-login {
+display: flex;
+}
+
+>>>>>>> 947dcf8317cbfa1518787eccc561a4ab43d7bf6b
 main{
     display: flex;
+    
 }
 #evaluation-form{
     display: flex;
