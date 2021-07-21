@@ -4,3 +4,7 @@
   display: flex;
   justify-content: space-between;
 }
+
+.trybewarts-header-logo {
+  width: 120px;
+}
