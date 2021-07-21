@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="materialize/css/materialize.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="materialize/css/materialize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
+
 <body>
   <!-- Cabeçalho (Requisitos 1 a 4) -->
   <header class="header">
@@ -17,7 +19,7 @@
     <div class="row log-in">
       <form method="GET" action="" class="trybewarts-login col s12 forms-header">
         <input placeholder="Login" type="email" name="log-in-email" id="log-in-email" class="col s4" />
-        <input placeholder="Senha" type="password" name="log-in-password" id="log-in-password" class="col s4"/>
+        <input placeholder="Senha" type="password" name="log-in-password" id="log-in-password" class="col s4" />
         <button type="submit" id="log-button" class="col s4 waves-effect waves-light btn">Entre</button>
       </form>
     </div>
@@ -26,17 +28,104 @@
   <main class="row">
     <!-- Forms -->
     <form action="" id="evaluation-form" class="forms">
-      <!-- Nome, Sobrenome e E-Mail (Requisitos 5,6 e 8) -->
+      <!-- Nome, Sobrenome(Requisitos 5,6 e 8) -->
       <div class="row">
-        <input type="text" id="input-name" placeholder="Nome">
-        <input type="text" id="input-lastname" placeholder="Sobrenome">
-        <input type="text" id="input-email" placeholder="Email">
+        <!-- Alinha Nome e Sobrenome (Requisito 10) -->
+        <div class="col s12">
+          <input type="text" class="col s6" id="input-name" placeholder="Nome">
+          <input type="text" class="col s6" id="input-lastname" placeholder="Sobrenome">
+        </div>
+        <!-- Alinha casa e email (Requisito 11) -->
+        <div class="col s12">
+          <input type="text" id="input-email" placeholder="Email" class="col s6">
+          <!-- Select 'Casa' (Requisito 9) -->
+          <select name="casa" id="house" class="col s6 browser-default">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </div>
+        <!-- Família e Conteúdo (Requisito 12 e 13)-->
+        <div class="familys col s12">
+          <!-- Família (Requisito 12) -->
+          <div class="col s6">
+            <label for="radio-options" id="label-family">
+              <h6>Qual sua família?</h6>
+            </label>
+            <p>
+              <label>
+                <input name="family" type="radio" value="Frontend" checked />
+                <span>Frontend</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="family" type="radio" value="Backend" checked />
+                <span>Backend</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="family" type="radio" value="FullStack" checked />
+                <span>FullStack</span>
+              </label>
+            </p>
+          </div>
+          <!-- Conteúdo (Requisito 13) -->
+          <div class="col s6">
+            <label for="" id="label-content">
+              <h6>Qual conteúdo você está com mais vontade de aprender?</h6>
+            </label>
+            <div class="col s6">
+              <p>
+                <label>
+                  <input type="checkbox" class="materialize-checkbox" value="HoFs" />
+                  <span>HoFs</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="materialize-checkbox"  value="Jest" />
+                  <span>Jest</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="materialize-checkbox"  value="Promises" />
+                  <span>Promises</span>
+                </label>
+              </p>
+            </div>
+            <div class="col s6">
+              <p>
+                <label>
+                  <input type="checkbox" class="materialize-checkbox"  value="React" />
+                  <span>React</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="materialize-checkbox"  value="SQL" />
+                  <span>SQL</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="materialize-checkbox"  value="Python" />
+                  <span>Python</span>
+                </label>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </form>
     <!-- Imagem TrybeWarts (Requisito 7) -->
-    <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+    <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" cla>
   </main>
   <!-- Script -->
   <script src="script.js"></script>
 </body>
+
 </html>

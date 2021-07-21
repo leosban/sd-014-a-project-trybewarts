@@ -39,6 +39,11 @@ main {
   max-width: 675px;
 }
 
+.familys {
+  display: flex;
+  align-items: baseline;
+}
+
 #header-logo {
   max-width: 75px;
   max-height: 75px;
@@ -50,5 +55,5 @@ main {
 }
 
 #trybewarts-forms-logo {
-    height: 500px;
+  max-height: 600px;
 }
