@@ -8,3 +8,11 @@
   background-color: rgb(50, 167, 145);
   display: flex;
 }
+
+.trybewarts-header-logo {
+  justify-content: left;
+}
+
+.trybewarts-login {
+  justify-content: flex-end;
+}
