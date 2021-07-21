@@ -5,7 +5,6 @@
 }
 
 .trybewarts-header-logo {
-    
 }
 
 .main-container {
@@ -28,4 +27,13 @@
 
 .email-house {
   display: flex;
+}
+
+.div-direction {
+  flex-direction: column;
+}
+
+.div-container {
+  flex-wrap: wrap;
+  width: 365px;
 }
