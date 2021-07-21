@@ -31,9 +31,9 @@ body {
 }
 
 #evaluation-form {
-  width: 675px;
   display: flex;
   flex-direction: column;
+  width: 675px;
 }
 
 #evaluation-form h2 {
@@ -42,5 +42,21 @@ body {
 
 #trybewarts-forms-logo {
   height: 500px;
-  margin-left: 40px;
+  margin-left: 20px;
+}
+
+.primeiro-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.select-house {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#house {
+
 }
