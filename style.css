@@ -29,11 +29,12 @@
 }
 
 #label-family {
+  padding: 20px;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  width: 300px;
+  flex-direction: column;  
   background-color: brown;
+  align-items: center;
   
 }
 
