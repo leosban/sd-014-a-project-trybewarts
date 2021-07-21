@@ -8,6 +8,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.trybewarts-login{
+.trybewarts-login, main, #evaluation-form{
   display: flex;
+}
+#evaluation-form{
+  width: 675px;
 }
