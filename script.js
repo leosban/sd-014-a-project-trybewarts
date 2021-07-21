@@ -6,10 +6,10 @@ const submitBtn = document.getElementById('submit-btn');
 
 buttonLogin.addEventListener('click', (event) => {
   event.preventDefault();
-  if (email.value === 'tryber@teste.com' && password.value === '123456') {
-    alert('Olá, Tryber!');
+  if (email.value !== 'tryber@teste.com' || senha.value !== '123456') {
+    alert('Login ou senha inválidos.');
   } else {
-    alert('Login ou senha inválidos');
+    alert('Olá, Tryber!');
   }
 });
 
