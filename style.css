@@ -17,7 +17,7 @@
 .trybewarts-login {
   display: flex;
   align-self: center;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .input-form-login {
@@ -32,4 +32,8 @@
   margin: 0px 5px;
   border-radius: 5px;
   border: none;
+}
+
+#trybewarts-header-title {
+  color: white;
 }
