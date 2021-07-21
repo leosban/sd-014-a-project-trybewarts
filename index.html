@@ -17,7 +17,7 @@
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logo da trybe warts"
       id="header-logo" />
     <h1 id="trybewarts-header-title">Trybewarts</h1>
-    <div class="row log-in">
+    <div class="log-in">
       <form method="GET" action="" class="trybewarts-login col s12 forms-header">
         <input placeholder="Login" type="email" name="log-in-email" id="log-in-email" class="col s4" />
         <input placeholder="Senha" type="password" name="log-in-password" id="log-in-password" class="col s4" />
@@ -41,6 +41,7 @@
           <input type="text" id="input-email" placeholder="Email" class="col s6">
           <!-- Select 'Casa' (Requisito 9) -->
           <select name="casa" id="house" class="col s6 browser-default">
+            <option value="" disabled selected>Escolha sua casa:</option>
             <option value="Gitnória" id="gitnoria-house">Gitnória</option>
             <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
             <option value="Corvinode" id="corvinode-house">Corvinode</option>
@@ -171,6 +172,7 @@
         <div class="input-field col s12">
           <textarea id="textarea" class="materialize-textarea" maxlength="500"></textarea>
           <label for="textarea" class="textarea">Deixe seu comentário:</label>
+          <p><span id="counter">500</span>/500</p>
         </div>
         <div class="col s12"> </div>
         <!-- Termos e Submit (Requisito 16, 17 e 18) -->
@@ -190,7 +192,10 @@
     <!-- Imagem TrybeWarts (Requisito 7) -->
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" cla>
   </main>
-  
+  <!-- Footer -->
+  <footer class="rodape teal darken-1">
+    <h6>Direitos reservados à Trybewarts©</h6>
+  </footer>
   <!-- Script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="script.js"></script>

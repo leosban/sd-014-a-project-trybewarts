@@ -1,21 +1,21 @@
 main {
-  display: flex;  
+  display: flex;
   align-items: center;
   align-content: center;
   justify-content: space-around;
 }
 
-.header {
+header {
   background-color: rgb(50, 167, 145);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   max-height: 100px;
 }
 
 .log-in {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .forms-header {
@@ -24,7 +24,7 @@ main {
   margin-right: 20px;
   margin-left: 30px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .forms {
@@ -42,6 +42,10 @@ main {
 .familys {
   display: flex;
   align-items: baseline;
+}
+
+.rodape {
+  height: 100px;
 }
 
 #header-logo {

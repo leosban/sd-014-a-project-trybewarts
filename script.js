@@ -3,6 +3,8 @@ const email = document.querySelector('[name = log-in-email]');
 const password = document.querySelector('[name = log-in-password');
 const agreement = document.querySelector('#agreement');
 const submit = document.querySelector('#submit-btn');
+const avaliation = document.querySelector('#textarea');
+const available = document.querySelector('#counter');
 
 // Funções
 const allF = {
@@ -22,6 +24,10 @@ const allF = {
       submit.disabled = true;
     }
   },
+  counter: function counterCharacter(event) {
+    const value = 500 - event.target.value.length;
+    available.innerHTML = value;
+  },
 };
 
 // Desabilita o default
@@ -29,3 +35,5 @@ const allF = {
 
 logIn.addEventListener('click', allF.checkLog);
 agreement.addEventListener('click', allF.checkSubmit);
+avaliation.addEventListener('keyup', allF.counter);
+avaliation.addEventListener('keydown', allF.counter);
