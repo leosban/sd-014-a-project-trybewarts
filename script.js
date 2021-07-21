@@ -5,7 +5,7 @@ function verificaLogin() {
   if (login.value === 'tryber@teste.com' && senha.value === '123456') {
     alert('Olá, Tryber!');
   } else {
-    alert('Login ou senha inválidos.');
+    alert('Email ou senha inválidos.');
   }
 }
 document.getElementById('gobut').addEventListener('click', verificaLogin);
@@ -20,12 +20,3 @@ function enableSend() {
   }
 }
 document.getElementById('agreement').addEventListener('change', enableSend);
-
-function countChar() {
-  const idcount = document.getElementById('counter');
-  const charCount = document.getElementById('textarea').value.length;
-  const newCount = 500 - charCount;
-  idcount.innerText = newCount;
-}
-document.getElementById('textarea').addEventListener('change', countChar);
-document.getElementById('textarea').addEventListener('keyup', countChar);
