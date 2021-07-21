@@ -49,4 +49,13 @@ img {
 
 #container-radio {
   display: flex;
+  flex-direction: column;
+}
+
+#container-rate {
+  display: flex;
+}
+
+#container-10 {
+  display: flex;
 }
