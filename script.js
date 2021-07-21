@@ -1,5 +1,5 @@
 const email = document.getElementById('email');
-const password =document.getElementById('senha');
+const password = document.getElementById('senha');
 const buttonLogin = document.getElementById('button-login');
 const agreement = document.getElementById('agreement');
 const submitBtn = document.getElementById('submit-btn');
@@ -16,3 +16,5 @@ agreement.onchange = function swap() {
         submitBtn.disabled = !this.checked;
   };
 
+
+  

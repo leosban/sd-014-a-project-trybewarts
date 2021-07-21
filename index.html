@@ -12,8 +12,8 @@
 
 <body>
     <header class="header">
-      <img src="images/trybewarts-header-logo.svg" alt="" id="header-logo">
-
+      <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="">
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
       <form action="" class="trybewarts-login">
         <div>
           <div>
@@ -58,8 +58,8 @@
           </label>
         </div>
 
-        <div class="row">
-            <label for="subject" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        <div class="column">
+          <label for="subject" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
           <div>
           <input type="checkbox" value="HoFs" class="subject">HoFs
           </div>
@@ -119,11 +119,20 @@
         <label id="label-infos">Você concorda com o uso das informações acima?
             <input id="agreement" type="checkbox">
           </label>
-        <button type="submit" id="submit-btn" >Enviar</button>
+        <button type="submit" id="submit-btn" disabled>Enviar</button>
 
+        
+        <label id="label-infos">Você concorda com o uso das informações acima?
+          <input id="agreement" type="checkbox">
+        </label>
+
+        <button type="submit" id="submit-btn" >Enviar</button>
       </form>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"/>
     </main>
+    <footer class="footer">
+      <p>Direitos reservados à Trybewarts©</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 
