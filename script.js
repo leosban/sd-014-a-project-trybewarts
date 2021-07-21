@@ -7,7 +7,7 @@ let senhaPattern = '123456';
 btnLogar.addEventListener('click', (event) => {
   event.preventDefault();
   if (login.value === loginPattern && senha.value === senhaPattern) {
-    window.alert('Olá, Tryber!')
+    window.alert("Olá, Tryber!");
   } else {
     window.alert('Login ou senha inválidos.')
   }
