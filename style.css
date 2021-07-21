@@ -27,3 +27,11 @@
 #senha{
   width: 100px;
 }
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+main {
+  display: flex;
+}
