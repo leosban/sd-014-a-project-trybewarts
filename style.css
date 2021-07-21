@@ -33,3 +33,8 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+#div-label-content {
+  display: flex;
+  flex-direction: column;
+}
