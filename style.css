@@ -2,13 +2,38 @@
   background-color: rgb(50, 167, 145);
   display: flex;
   height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
 }
 
 .image-container {
-  align-self: center;
   height: 70%;
+}
+
+.login-container input {
+  width: 60%;
 }
 
 .trybewarts-header-logo {
   height: 100%;
+}
+
+.login-container {
+  height: 70%;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.login-container .flex-container {
+  width: 60%;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end
 }
