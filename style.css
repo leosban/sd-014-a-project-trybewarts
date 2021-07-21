@@ -4,3 +4,10 @@
   background-color: rgb(50, 167, 145);
   align-items: center;
 }
+.formulario{
+  display: flex;
+}
+.formulario form{
+  width: 675px;
+  flex-direction: column;
+}
