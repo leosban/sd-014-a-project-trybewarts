@@ -29,3 +29,8 @@
 .email-casa {
   display: flex;
 }
+
+#qual-familia-container {
+  display: flex;
+  flex-direction: column;
+}
