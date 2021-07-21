@@ -6,3 +6,8 @@
 .trybewarts-header-logo {
   align-items: flex-start;
 }
+
+.trybewarts-login {
+    align-items: flex-end;
+    display: flex;
+}
