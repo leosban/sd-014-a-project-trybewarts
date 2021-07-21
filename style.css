@@ -15,7 +15,7 @@
   justify-content: flex-start;
 }
 
-.header .trybewarts-header-title {
+.header #trybewarts-header-title {
   justify-content: center;
 }
 
@@ -26,4 +26,5 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
+  flex-direction: column;
 }
