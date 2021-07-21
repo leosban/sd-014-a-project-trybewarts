@@ -30,3 +30,8 @@
 #email-casa {
   flex-direction: column;
 }
+
+#container-familia {
+  display: flex;
+  flex-direction: column;
+}
