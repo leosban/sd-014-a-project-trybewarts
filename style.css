@@ -69,7 +69,6 @@ main {
 }
 
 #label-content {
-  display: flex;
   flex-wrap: wrap;
   display: flex;
 }
