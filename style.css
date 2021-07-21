@@ -48,3 +48,7 @@
 	flex-basis: 90px;
   align-self: flex-start;
 }
+
+.rate-container label {
+  margin-right: 10px;
+}
