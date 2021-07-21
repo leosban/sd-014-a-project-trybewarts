@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- requisito 1: Barra superior -->
+  <header class="header">
+    <!-- requisito 2: Logo Trybewarts -->
+    <img class='trybewarts-header-logo' src='images/trybewarts-header-logo.svg' alt="Logo Trybewarts">
+    <!-- requisito 4: Título Trybewarts -->
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <!-- requisito 3: Formulário de autenticação -->
+    <form class='trybewarts-login'>
+      <input type="email" placeholder="Login" id="login">
+      <input type="password" placeholder="Senha" id="password">
+      <button type="button" id="btn-login">Login</button>
+    </form>
+  </header>
+  <!-- requisito 5: Container com formulário -->
+  <main class='container-flex'>
+    <form id='evaluation-form'>
+      <!-- requisito 10: Campos Nome e Sobrenome lado a lado -->
+      <div class="form-name-lastname">
+        <!-- requisito 8: Inputs do formulário -->
+        <input type="text" placeholder="Nome" id="input-name">
+        <input type="text" placeholder="Sobrenome" id="input-lastname">
+      </div>
+      <!-- requisito 11: Campos Email e Casa lado a lado -->
+      <div class="form-email-house">
+        <input type="text" placeholder="Email" id="input-email">    
+      <!-- requisito 9: Select com opções de casas -->
+        <select id="house">
+          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id="corvinode-house" value="Corvinode">Corvinode</option>
+          <option id="pytherina-house" value="Pytherina">Pytherina</option>
+        </select>
+      </div>
+      <!-- requisito 12: Campo de entrada para seleção da família -->
+      <div class="form-family">        
+        <label id="label-family" for="">Qual sua família?</label>
+        <div class="form-family-options">
+          <div>
+            <label for="Frontend">Frontend</label>   
+            <input type="radio" name="family" value="Frontend">         
+          </div>
+          <div>
+            <label for="Backend">Backend</label>
+            <input type="radio" name="family" value="Backend">         
+          </div>
+          <div>
+            <label for="FullStack">FullStack</label>
+            <input type="radio" name="family" value="FullStack">           
+          </div>
+        </div>    
+      </div>
+      <!-- requisito 13: Campo de entrada para seleção de conteúdo de interesse -->
+      <div class="form-content">
+        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        <div class="form-content-options">
+          <!-- HoFs-->
+          <label for="HoFs">HoFs</label>
+          <input type="checkbox" class="subject" value="HoFs" name="HoFs">
+          <!-- Jest-->
+          <label for="Jest">Jest</label>
+          <input type="checkbox" class="subject" value="Jest" name="Jest">
+          <!-- Promises-->
+          <label for="Promises">Promises</label>
+          <input type="checkbox" class="subject" value="Promises" name="Promises">
+          <!-- React-->
+          <label for="React">React</label>
+          <input type="checkbox" class="subject" value="React" name="React">
+          <!-- SQL-->
+          <label for="SQL">SQL</label>
+          <input type="checkbox" class="subject" value="SQL" name="SQL">
+          <!-- Python-->
+          <label for="Python">Python</label>
+          <input type="checkbox" class="subject" value="Python" name="Python">
+        </div>
+      </div>
+      <!-- requisito 14: Formulário de avaliação do nível de satisfação -->
+      <div class="form-rate">
+        <label id="label-rate">Como você avalia a Trybewarts?</label>        
+      </div>
+      <!-- requisito 15: Campo textarea -->
+      <div class="textarea">
+        <label class="textarea" for="textarea">Deixe seu comentário:</label>
+        <textarea maxlength="500" id="textarea"></textarea>
+      </div>
+      <!-- requisito 16: Checkbox agreement -->
+      <div class="agreement">
+        <label id="label-infos">Você concorda com o uso das informações acima?</label>
+        <input type="checkbox" id="agreement">
+      </div>
+      <!-- requisito 17: Botão de enviar informações do formulário -->
+      <button type="submit" id="submit-btn">Enviar</button>
+    </form>
+    <!-- requisito 7: Logo Formulário Trybewarts -->
+    <img src='images/trybewarts-colored.svg' id="trybewarts-forms-logo" alt="Logo Formulário Trybewarts">
+  </main>
+  <!-- requisito 19: Rodapé -->
+  <footer>Direitos reservados à Trybewarts©</footer>
+  <script src='script.js'></script>
+  
+</body>
+</html>
