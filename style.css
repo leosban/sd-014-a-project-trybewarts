@@ -53,7 +53,7 @@ main {
   justify-content: space-between;
 } */
 
-#input-name, #input-lastname, #input-email {
+#input-name , #input-lastname , #input-email {
   margin: 5px;
 }
 
@@ -71,4 +71,5 @@ main {
   flex-flow: column;
   border: 2px solid black;
   margin-right: 350px;
+  padding: 10px
 }
