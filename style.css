@@ -13,3 +13,7 @@
 .trybewarts-header-logo {
   height: 100px;
 }
+
+.trybewarts-login {
+  display: flex;
+}
