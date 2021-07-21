@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.trybewarts-header-logo{
+.trybewarts-header-logo {
   width: 5%;
 }
 
@@ -25,13 +25,13 @@ main {
   justify-content: space-around;
 }
 
-#evaluation-form{
+#evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
 }
 
-#trybewarts-forms-logo{
+#trybewarts-forms-logo {
   width: 500px;
 }
 
