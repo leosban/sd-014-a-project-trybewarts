@@ -5,6 +5,7 @@
 }
 
 .trybewarts-header-logo {
+
 }
 
 .main-container {
@@ -18,5 +19,9 @@
 }
 
 #trybewarts-forms-logo {
-    height: 500px;
+  height: 500px;
+}
+
+.name-lastname {
+    display: flex;
 }
