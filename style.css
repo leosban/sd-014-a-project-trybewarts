@@ -21,3 +21,19 @@
   width: 675px;
   flex-direction: column
 }
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#evaluation-form input, #evaluation-form select {
+  width: 50%;
+}
+
+#nome-completo {
+  display: flex;
+}
+
+#email-casa {
+  display: flex;
+}
