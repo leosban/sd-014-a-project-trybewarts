@@ -64,6 +64,7 @@ main {
   display: flex;
   justify-content: space-between;
 }
+<<<<<<< HEAD
 .row .subject{
     display: flex;
     flex-direction: column;
@@ -71,4 +72,10 @@ main {
 #label-content{
     display: flex;
     flex-wrap: wrap;
+=======
+
+.column {
+  display: flex;
+  flex-direction: column;
+>>>>>>> 0677e8a20c7c7af798aab2a91d7e39635a842480
 }
