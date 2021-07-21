@@ -46,3 +46,7 @@ main {
 .content-label {
   display: flex;
 }
+
+.rate-container {
+  display: flex;
+}
