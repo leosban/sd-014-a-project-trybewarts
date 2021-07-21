@@ -1,22 +1,25 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
 }
 
 .trybewarts-header-logo {
   display: flex;
   align-self: start;
-  
+
 }
 
 .trybewarts-login {
   display: flex;
-  /*espaçamento maximo */
+
 }
+
 #trybewarts-header-title {
   display: flex;
   justify-content: space-between;
 }
+
 .main-container {
   display: flex;
 }

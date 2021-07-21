@@ -1,4 +1,3 @@
-
 function addEventButtonLogin() {
   document.getElementById('button').addEventListener('click', (event) => {
     const t = document.getElementById('login').value === 'tryber@teste.com';
@@ -14,4 +13,4 @@ function addEventButtonLogin() {
 
 window.onload = () => {
   addEventButtonLogin();
-  };
+};
