@@ -4,7 +4,12 @@
 }
 
 .trybewarts-header-logo {
-  /*alinha a esquerda */
+  align-self: start;
+  
+}
+
+.trybewarts-login {
+  /*espaçamento maximo */
 }
 
 .main-container {
@@ -12,6 +17,7 @@
 }
 
 #evaluation-form {
+  align-self: start;
   display: flex;
   flex-direction: column;
   width: 675px;
