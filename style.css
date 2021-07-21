@@ -16,10 +16,9 @@
 }
 
 main {
-    display: flex;
-  }
-
-#trybewarts-forms-logo {
-    width: 200px;
+  display: flex;
 }
 
+#trybewarts-forms-logo {
+  width: 200px;
+}
