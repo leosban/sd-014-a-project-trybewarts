@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 
-#trybewarts-login {
+.trybewarts-login {
   display: flex;
 }
 .header .trybewarts-header-logo {
