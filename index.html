@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
   <link rel="stylesheet" href="style.css">
   <title>TrybeWarts</title>
 </head>
-
 <body>
   <header class="header">
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="">
@@ -35,27 +33,32 @@
           <option type="text" id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
       </div>
-
       <div class="row">
         <div class="column">
-        <label for="" id="label-family">Qual sua família?</label>
-        <input type="radio" name="family" value="Frontend">Frontend
-        <input type="radio" name="family" value="Backend">Backend
-        <input type="radio" name="family" value="FullStack">FullStack
+          <label for="" id="label-family">Qual sua família?</label>
+          <div>
+            <input type="radio" name="family" value="Frontend">Frontend
+          </div>
+          <div>
+            <input type="radio" name="family" value="Backend">Backend
+          </div>
+          <div>
+            <input type="radio" name="family" value="FullStack">FullStack
+          </div>
+        </div>
+        <div>
+          <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div>
+            <input class="subject" type="checkbox" value="HoFs">HoFs
+            <input class="subject" type="checkbox" value="Jest">Jest
+            <input class="subject" type="checkbox" value="Promises">Promises
+            <input class="subject" type="checkbox" value="React">React
+            <input class="subject" type="checkbox" value="SQL">SQL
+            <input class="subject" type="checkbox" value="Python">Python
+          </div>
+        </div>
       </div>
-      
-      <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?<label>
-      <div class="row">
-        <input class="subject" type="checkbox" value="HoFs">HoFs
-        <input class="subject" type="checkbox" value="Jest">Jest
-        <input class="subject" type="checkbox" value="Promises">Promises
-        <input class="subject" type="checkbox" value="React">React
-        <input class="subject" type="checkbox" value="SQL">SQL
-        <input class="subject" type="checkbox" value="Python">Python
-      </div>
-    </div>
-    <!-- Precisa de classe? -->
-      <div > 
+      <div>
         <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
         <input type="radio" name="rate" value="1">1
         <input type="radio" name="rate" value="2">2
@@ -68,26 +71,20 @@
         <input type="radio" name="rate" value="9">9
         <input type="radio" name="rate" value="10">10
       </div>
-
-    <label for="" class="textarea">Deixe seu comentário:</label>
-    <textarea name="textarea" cols="18" rows="10" maxlength="500"></textarea>
-      
-
-
-
-
-
+      <label for="" class="textarea">Deixe seu comentário:</label>
+      <textarea name="textarea" cols="18" rows="10" maxlength="500"></textarea>
+      <div>
+        <input type="checkbox" id="agreement">
+        <label for=""> Você concorda com o uso das informações acima?</label>
+      </div>
+      <button type="submit" id="submit-btn" disabled>Enviar</button>
     </form>
-
-
-
-    <aside>
-      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Trybewarts-logo">
-    </aside>
+      <aside>
+        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Trybewarts-logo">
+      </aside>
   </main>
-
-
-
+  <footer>
+    <p>Direitos reservados à Trybewarts©</p>
+  </footer>
 </body>
-
 </html>
