@@ -5,9 +5,9 @@ const password = document.getElementById('senha');
 function enter(event){
     event.preventDefault();
     if(userName.value === 'tryber@teste.com' && password.value === '123456'){
-        console.log('valido')
+        alert ('Olá, Tryber!')
     }else{
-        alert ('usuário ou senha inválido')
+        alert ('Login ou senha inválidos.')
     }
 }
 
