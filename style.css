@@ -41,3 +41,14 @@
   border-radius: 5px;
   border: none;
 }
+
+main{
+    display: flex;
+    margin-top: 70px;
+}
+
+#evaluation-form{
+    display: flex;
+    width: 675px;
+}
+
