@@ -38,3 +38,8 @@ form {
   width: 675px;
   background-color: cornflowerblue;
 }
+
+#label-family div {
+  display: flex;
+  flex-direction: column;
+}
