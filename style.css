@@ -11,7 +11,9 @@
 .trybewarts-login {
   /*espaçamento maximo */
 }
-
+#trybewarts-header-title {
+  /*fica no meio  */
+}
 .main-container {
   display: flex;
 }
