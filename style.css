@@ -14,10 +14,12 @@
 
 .header .trybewarts-header-logo {
   justify-content: flex-start;
+  width: 10%;
 }
 
 .header #trybewarts-header-title {
   justify-content: center;
+  color: white;
 }
 
 main {
