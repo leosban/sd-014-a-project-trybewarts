@@ -2,9 +2,9 @@ const loginInfo = document.querySelector('#input-login');
 const passInfo = document.querySelector('#input-password');
 const submitLogPas = document.querySelector('#btn-submit');
 
-function LogCheck(login, password) {
+function LogCheck() {
   window.alert('aw ye');
-  if (login.value === 'tryber@teste.com' && password.value === '123456') {
+  if (loginInfo.value === 'tryber@teste.com' && passInfo.value === '123456') {
     return window.alert('Olá, Tryber!');
   }
   else {
