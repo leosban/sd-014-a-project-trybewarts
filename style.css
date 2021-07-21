@@ -21,3 +21,12 @@
   height: 500px;
   align-items: flex-start;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
