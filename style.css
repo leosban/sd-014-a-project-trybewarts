@@ -22,6 +22,6 @@
   height: 500px;
 }
 
-#inputs-name {
+#inputs-name , #inputs-other {
   display: flex;
 }
