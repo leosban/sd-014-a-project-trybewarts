@@ -23,6 +23,10 @@
   flex-direction: column;
 }
 
-.nome-sobrenome {
+#nome-sobrenome {
   flex-direction: row;
+}
+
+#email-casa {
+  flex-direction: column;
 }
