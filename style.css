@@ -19,3 +19,51 @@
   text-align: center;
   display: block;
 }
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.side {
+  display: flex;
+  text-align: center;
+}
+
+#label-family {
+  display: block;
+}
+
+.label-family-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.checklabels {
+  display: inline-block;
+  width: 100px;
+}
+
+.dispblock {
+  display: block;
+  width: 100px;
+}
+
+#label-content {
+  display: flex;
+  text-align: center;
+}
+
+#house {
+  display: flex;
+  text-align: center;
+}
