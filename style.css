@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: rgba(207, 205, 205, 0.623);
 }
 
 .header {
@@ -24,10 +25,18 @@ body {
   align-items: center;
 }
 
-.main-container {
+.trybewarts-login input {
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 0;
+}
+
+main {
   display: flex;
   justify-content: center;
-  align-items: center;
+
+  /* align-items: center; */
 }
 
 #evaluation-form {
@@ -42,7 +51,7 @@ body {
 
 #trybewarts-forms-logo {
   height: 500px;
-  margin-left: 20px;
+  margin-left: auto;
 }
 
 .primeiro-form {
@@ -51,12 +60,27 @@ body {
   justify-content: flex-start;
 }
 
+.primeiro-form input {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 0;
+  width: 200px;
+  height: 20px;
+}
+
 .select-house {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 50px;
 }
 
 #house {
-
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 0;
+  width: 200px;
+  background-color: white;
 }
