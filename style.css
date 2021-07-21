@@ -5,7 +5,7 @@
 }
 
 .trybewarts-header-logo {
-
+    
 }
 
 .main-container {
@@ -23,5 +23,9 @@
 }
 
 .name-lastname {
-    display: flex;
+  display: flex;
+}
+
+.email-house {
+  display: flex;
 }
