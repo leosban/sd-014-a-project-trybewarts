@@ -1,4 +1,4 @@
-const submitButton = document.querySelector('#btn-login');
+const loginButton = document.querySelector('#btn-login');
 const emailInput = document.querySelector('#login');
 const passwordInput = document.querySelector('#password');
 
@@ -11,7 +11,7 @@ function validateLogin() {
   }
 }
 
-submitButton.addEventListener('click', validateLogin);
+loginButton.addEventListener('click', validateLogin);
 
 // requisito 14: Cria as opções de avaliação (de 1 a 10)
 function createRadioButtons() {
@@ -32,3 +32,18 @@ function createRadioButtons() {
 }
 
 createRadioButtons();
+
+// requisito 18: Validação de checkbox para habilitar botão
+const submitButton = document.querySelector('#submit-btn');
+const agreementCheck = document.querySelector('#agreement');
+submitButton.disabled = true;
+
+function sendForm() {
+  if (agreementCheck.checked === true) {
+    submitButton.disabled = false;
+  } else {
+    submitButton.disabled = true;
+  }
+}
+
+agreementCheck.addEventListener('click', sendForm);
