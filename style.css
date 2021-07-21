@@ -4,9 +4,19 @@
   width: 675px;
 }
 
+#input-fullname {
+  display: flex;
+  justify-content: space-around;
+}
+
+#input-fullname input:nth-child(1),
+#input-fullname input:nth-child(2) {
+  flex-grow: 1;
+}
+
 main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #trybewarts-forms-logo {
@@ -14,6 +24,7 @@ main {
 }
 
 /* Temporary styles, to be removed later. */
-#evaluation-form, #trybewarts-forms-logo {
+#evaluation-form,
+#trybewarts-forms-logo {
   border: 1px solid red;
 }
