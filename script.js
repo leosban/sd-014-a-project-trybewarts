@@ -26,3 +26,7 @@ loginButton.addEventListener('click', loginCheck);
 document.getElementById('agreement').addEventListener('click', (e) => {
   document.getElementById('submit-btn').disabled = !e.target.checked;
 }); // Referência da estrutura da função = https://stackoverflow.com/questions/33973512/enable-submit-button-when-select-checkbox
+
+document.getElementById('textarea').onkeyup = function characterCounter() {
+  document.getElementById('counter').innerHTML = `${500 - this.value.length}`;
+};
