@@ -20,4 +20,15 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+  display: flex;
+}
+
+.nomeSobrenome-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.emailCasa-container {
+  display: flex;
+  flex-direction: row;
 }
