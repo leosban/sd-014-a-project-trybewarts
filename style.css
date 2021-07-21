@@ -25,3 +25,13 @@
   height: 500px;
   display: flex;
 }
+
+.nameLastName {
+  display: inline-flex;
+  align-items: center;
+}
+
+.email-house {
+  display: inline-flex;
+  align-items: center;
+}
