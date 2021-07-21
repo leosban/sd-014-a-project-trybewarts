@@ -3,9 +3,21 @@
   display: flex;
   justify-content: space-between;
   text-align: end;
+
+
 }
 
-.trybewarts-login{
+.trybewarts-login {
   display: flex;
   align-items: baseline;
+}
+
+.mainContainer {
+  display: flex;
+
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
