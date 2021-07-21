@@ -8,3 +8,13 @@ getBotao.addEventListener('click', () => {
     alert('Login ou senha inválidos.');
   }
 });
+
+const getCheckbox = document.getElementById('agreement');
+getCheckbox.addEventListener('click', () => {
+  const getBotaoSubmit = document.getElementById('submit-btn');
+  if (getCheckbox.checked === true) {
+    getBotaoSubmit.disabled = false;
+  } else {
+    getBotaoSubmit.disabled = true;
+  }
+});
