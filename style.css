@@ -24,10 +24,11 @@
 
 .main {
   display: flex;
+  /* margin: 40px 10%; */
 }
 
 .trybewarts-forms-logo {
-  width: 675px;
+  width: 500px;
 }
 
 .evaluation-form {
@@ -42,4 +43,26 @@ img {
 
 .half {
   width: 49%;
+}
+
+.checkbox-radio {
+  display: flex;
+}
+
+.radio-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 140px;
+}
+
+#label-family {
+  width: 140px;
+}
+
+.margin-label {
+  margin-left: 10px;
+}
+
+.checkbox-container {
+  width: 380px;
 }
