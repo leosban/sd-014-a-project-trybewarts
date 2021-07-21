@@ -20,6 +20,7 @@
 #trybewarts-forms-logo {
   height: 500px;
   align-items: flex-start;
+  display: flex;
 }
 
 main {
