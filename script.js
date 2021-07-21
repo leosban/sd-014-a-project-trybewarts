@@ -22,9 +22,9 @@ function enableSend() {
 document.getElementById('agreement').addEventListener('change', enableSend);
 
 function countChar() {
-  let idcount = document.getElementById('counter');
-  let charCount = document.getElementById('textarea').value.length;
-  let newCount = 500 - charCount;
+  const idcount = document.getElementById('counter');
+  const charCount = document.getElementById('textarea').value.length;
+  const newCount = 500 - charCount;
   idcount.innerText = newCount;
 }
 document.getElementById('textarea').addEventListener('change', countChar);
