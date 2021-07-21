@@ -64,3 +64,11 @@ main {
   display: flex;
   justify-content: space-between;
 }
+.row .subject{
+    display: flex;
+    flex-direction: column;
+}
+#label-content{
+    display: flex;
+    flex-wrap: wrap;
+}
