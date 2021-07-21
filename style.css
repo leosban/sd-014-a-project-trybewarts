@@ -52,3 +52,9 @@
 .rate-container label {
   margin-right: 10px;
 }
+
+.text-area-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
