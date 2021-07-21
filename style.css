@@ -11,11 +11,18 @@
 
 main{
     display: flex;
+    width: 100%;
+}
+
+form, img{
+    display: flex;
+    justify-content: flex-end;
 }
 
 #evaluation-form{
     display: flex;
     width: 675px;
+    flex-direction: column;
 }
 
 #trybewarts-header-title{
@@ -27,6 +34,12 @@ input, button{
     margin: 5px;
     border-radius: 4px;
     border: 0;
+}
+
+#trybewarts-forms-logo{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .trybewarts-header-logo{
