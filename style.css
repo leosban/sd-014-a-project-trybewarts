@@ -34,3 +34,14 @@ main {
     display: flex;
     width: 49%;
 }
+
+#familyContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#familyContainer div {
+    display: flex;
+    flex-direction: row;
+}
