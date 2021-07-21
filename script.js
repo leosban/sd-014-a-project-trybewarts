@@ -4,9 +4,9 @@ const getPassword = document.querySelector('#senha');
 
 function valideLogin() {      
     if(getUser.value === 'tryber@teste.com' && getPassword.value === '123456') {
-        alert("Olá, Tryber!");
+        alert('Olá, Tryber!');
     } else {
-        alert("Login ou senha inválidos");
+        alert('Login ou senha inválidos.');
     }
 }
 const botaoLogin = document.querySelector('.btn-login');
