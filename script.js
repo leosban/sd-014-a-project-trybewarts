@@ -1,8 +1,9 @@
 function validarLoginSenha () {
     function validar () {
-        
+        const inputEmail = document.getElementById('js-email');
+        const inputSenha = document.getElementById('js-senha');
     }
 
-    const button = document.getElementById('autenticação"')
-    button.addEventListener('click' validar)
+    const button = document.getElementById('autenticacao')
+    button.addEventListener('click', validar)
 }
