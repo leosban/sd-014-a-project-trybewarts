@@ -7,17 +7,19 @@
 .trybewarts-header-logo {
   display: flex;
   align-self: start;
-  
+
 }
 
 .trybewarts-login {
   display: flex;
 
 }
+
 #trybewarts-header-title {
   display: flex;
   justify-content: space-between;
 }
+
 .main-container {
   display: flex;
 }
