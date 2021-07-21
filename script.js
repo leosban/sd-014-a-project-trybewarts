@@ -8,9 +8,9 @@ function validaLogin(email, password) {
     const passwordValue = document.getElementById('input-password').value;
 
     if (emailValue === email && passwordValue === password) {
-      alert('Olá, Tryber');
+      alert('Olá, Tryber!');
     } else {
-      alert('Login ou senha inválidos');
+      alert('Login ou senha inválidos.');
     }
   });
 }
