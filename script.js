@@ -13,6 +13,6 @@ buttonLogin.addEventListener('click', (event) => {
   }
 });
 
-agreement.onchange = function swap() { 
+agreement.onchange = function swap() {
   submitBtn.disabled = !this.checked;
 };
